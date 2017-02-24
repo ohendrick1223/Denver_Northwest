@@ -1,0 +1,33 @@
+{
+  "name": "Denver_Northwest",
+  "version": "1.0.0",
+  "description": "facilitates the exploration of the the Highlands neighborhood and surrounding areas through data visualization and animation-heavy story-telling. Users are taken on a 'journey' through time and place to different historical landmarks and areas of import and are introduced to the constantly changing demographics of this dynamic area in Colorado's Capital",
+  "main": "server.js",
+  "start": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engine": {
+    "node": "7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohendrick1223/Denver_Northwest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohendrick1223/Denver_Northwest/issues"
+  },
+  "homepage": "https://github.com/ohendrick1223/Denver_Northwest#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "knex": "^0.12.7",
+    "pg": "^6.1.2",
+    "router": "^1.2.0"
+  }
+}
