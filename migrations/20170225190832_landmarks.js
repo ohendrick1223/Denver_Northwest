@@ -2,13 +2,14 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('landmarks', table => {
     table.increments();
-    table.integer('neighborhood_id').references('id').inTable('neighborhoods');
-    table.text('name');
-    table.text('address');
-    table.text('image_url');
-    table.text('description');
-    table.decimal('longitude');
-    table.decimal('latitude');
+    table.text('name').notNullable();
+    table.text('description').notNullable();
+    table.text('photo_url').notNullable();
+    table.text('address').notNullable();
+    table.decimal('longitude').notNullable();
+    table.decimal('latitude').notNullable();
+    table.text('neighborhood').notNullable();
+    // table.integer('neighborhood_id').references('id').inTable('neighborhoods').notNullable();
   });
 };
 
