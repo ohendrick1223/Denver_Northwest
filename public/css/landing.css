@@ -1,0 +1,53 @@
+/* Header */
+/*Need to figure out how to link background image, something is over-riding, need to apply backimage to either content class, large header, demo canvas or something else entirely!*/
+
+#demo-canvas {
+	background-image: url('./assets/hero.png');
+
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333 url("assets/hero.png");
+
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+	/*background-image: url('assets/hero.png');*/
+	background-position: center bottom;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	font-family: sans-serif, cursive;
+	font-weight: normal;
+	font-size: 8em;
+	padding-left: 10px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title,
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+
+	.main-title {
+		font-size: 4em;
+	}
+}
+/*fade out*/
+.mapSection {
+  
+}
