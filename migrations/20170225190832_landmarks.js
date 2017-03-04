@@ -4,7 +4,8 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.text('name').notNullable();
     table.text('description').notNullable();
-    table.text('photo_url').notNullable();
+    table.text('photo_url_recent').notNullable();
+    table.text('photo_url_2').notNullable();
     table.text('address').notNullable();
     table.decimal('longitude').notNullable();
     table.decimal('latitude').notNullable();
