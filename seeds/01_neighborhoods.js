@@ -42,7 +42,7 @@ exports.seed = function(knex, Promise) {
         }),
       knex('neighborhoods').insert(
         {
-          id: 7,
+          id: 6,
           name: 'Jefferson Park',
           description: 'An area just to the west of Highland, Jefferson Park was once considered a part of Highland, housing the original highland Town Hall. Today, Jefferson Park is one of the fastest in the area to change. The stream of new developments never seems to end.',
           photo_url: ''

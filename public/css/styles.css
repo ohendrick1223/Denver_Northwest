@@ -1,3 +1,94 @@
-.mapSection {
-  
+.landingPage {
+height: 1200px;
+background-color: pink;
+}
+
+#quotePage {
+  height: 1200px;
+ background-color: #93E8DB;
+}
+
+#aboutPage {
+  height: 1200px;
+  background-color: pink;
+
+}
+
+#historyPage {
+  height: 1200px;
+  background-color: #93E8DB;
+
+}
+
+#timelinePage {
+   height: 1200px;
+   background-color: pink;
+  }
+
+#mapPage {
+  height: 2000px;
+  background-color: pink;
+
+}
+
+#berkeleyMapPage {
+
+  height: 2000px;
+  background-color: #93E8DB;
+
+}
+
+#sunnysideMapPage {
+
+  height: 2000px;
+  background-color: pink;
+
+}
+
+#westHighlandMapPage {
+
+  height: 1200px;
+  background-color: #93E8DB;
+
+}
+
+#lowerHighlandMapPage {
+  height: 1300px;
+  background-color: pink;
+
+}
+
+#sloansLakeMapPage {
+  height: 1300px;
+  background-color: #93E8DB;
+
+
+}
+
+#jeffersonParkMapPage {
+  height: 1500px;
+  background-color: pink;
+
+
+}
+
+#storyBooksPage {
+  height: 1200px;
+  background-color: #93E8DB;
+
+
+}
+
+#resourcesPage {
+  height: 1200px;
+  background-color: pink;
+
+}
+
+#contactPage {
+  height: 1200px;
+  background-color: #93E8DB;
+
+
+
 }
