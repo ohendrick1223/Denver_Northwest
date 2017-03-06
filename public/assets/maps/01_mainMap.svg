@@ -1,32 +1,78 @@
 <!-- rename classes based on neighborhood name .cls-1, .cls2,  -->
-
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 649.17 625.27">
   <defs>
     <style>
       .mainMap-cls-1 {
         fill: #ff7378;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+      }
+
+      .mainMap-cls-1:hover {
+       opacity: 0.5;
       }
 
       .mainMap-cls-2 {
         fill: #619cb0;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+      }
+
+      .mainMap-cls-2:hover {
+      opacity: 0.5;
       }
 
       .mainMap-cls-3 {
         fill: #769e6c;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+      }
+      .mainMap-cls-3:hover {
+      opacity: 0.5;
       }
 
       .mainMap-cls-4 {
         fill: #ff9696;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+      }
+      .mainMap-cls-4:hover {
+        opacity: 0.5;
       }
 
       .mainMap-cls-5 {
         fill: #fff891;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+      }
+      .mainMap-cls-5:hover {
+        opacity: 0.5;
       }
 
       .mainMap-cls-6 {
         fill: #8699bd;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
       }
+      .mainMap-cls-6:hover {
+        opacity: 0.5;
+        }
+
+        
     </style>
   </defs>
   <title>Asset 1</title>
@@ -36,7 +82,7 @@
 
         <a href="#westHighlandMapPage"><polygon id="west_highlands" data-name="west highlands" class="mainMap-cls-1" points="0 237.77 0 403.77 328 403.27 328 237.27 0 237.77"/></a>
 
-        <a href="#sloansLakeMapPage"><polygon ng-click='$ctrl.sloans_lake()' id="sloans_lake" data-name="sloans lake" class="mainMap-cls-2" points="269 403.49 217 403.55 162 403.6 106 403.66 0 403.77 0 460.27 0 487.77 0 625.27 162 625.27 203 625.27 269 625.27 328 625.27 328 569.27 328 515.27 328 460.27 328 403.43 269 403.49"/></a>
+        <a href="#sloansLakeMapPage"><polygon id="sloans_lake" data-name="sloans lake" class="mainMap-cls-2" points="269 403.49 217 403.55 162 403.6 106 403.66 0 403.77 0 460.27 0 487.77 0 625.27 162 625.27 203 625.27 269 625.27 328 625.27 328 569.27 328 515.27 328 460.27 328 403.43 269 403.49"/></a>
 
         <a href="#jeffersonParkMapPage"><polygon id="jefferson_park" data-name="jefferson park" class="mainMap-cls-3" points="499 420.27 485 403.27 328 403.27 328 569.27 399 569.27 410 571.27 441 571.27 452 531.27 508 476.27 526.5 462.74 530.06 456.24 531 450.27 499 420.27"/></a>
 
