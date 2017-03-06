@@ -90,7 +90,59 @@ background-color: pink;
   background-color: #93E8DB;
 }
 
-.quoteStyle {
-  font-size: 50px;
-  font-family: sans-serif;
+.navStyle{
+  font-family: Dosis;
+  font-size: 25px;
+  background-color:#3b6263;
 }
+
+/*override bootstrap navbar hover state*/
+.navbar-default .navbar-nav>li>a:hover{
+  color: #b5d1d0;
+}
+
+.headerStyle{
+  font-family: Londrina Sketch;
+  font-size: 200px;
+}
+
+.quoteStyle {
+  /*like this one*/
+  font-family: Cabin Sketch;
+  /*font-family: Dosis;*/
+  font-size: 50px;
+}
+
+.aboutStyle {
+/*like this one*/
+/*font-family: Cabin Sketch;*/
+font-family: Dosis;
+font-size: 20px;
+}
+
+.historyStyle{
+  font-family: Dosis;
+  font-size: 20px;
+}
+
+.timelineStyle{
+  font-family: Dosis;
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Cabin+Sketch||Dosis|Dr+Sugiyama|Londrina+Sketch"*/
