@@ -15,7 +15,7 @@ background-color: pink;
 }
 
 #historyPage {
-  height: 1200px;
+  height: 2000px;
   background-color: #93E8DB;
 
 }
@@ -88,7 +88,9 @@ background-color: pink;
 #contactPage {
   height: 1200px;
   background-color: #93E8DB;
+}
 
-
-
+.quoteStyle {
+  font-size: 50px;
+  font-family: sans-serif;
 }
