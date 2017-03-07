@@ -171,7 +171,7 @@ exports.seed = function(knex, Promise) {
           address:' 2636 W 32nd Ave,',
           longitude: -105.0199399,
           latitude: 39.7619113,
-          neighborhood: 'Sunnyside'
+          neighborhood: 'Lower Highland'
         }),
       knex('landmarks').insert(
         {

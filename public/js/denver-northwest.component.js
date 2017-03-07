@@ -107,14 +107,10 @@
 
 })(); //END LANDING PAGE ANIMATION=======================
 
-window.sr = ScrollReveal();
-sr.reveal('#quotePage', { duartion: 5000 });
-sr.reveal('#aboutPage');
-
     }; //end of oninit function
     vm.sloans_lake = function() {
       console.log("getting to sloanlake function")
-      
+
     };
   } //end of controller function
 

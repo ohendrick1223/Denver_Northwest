@@ -10,8 +10,8 @@ angular.module('app').directive('mainMap', ['$compile', function ($compile) {
 angular.module('app').directive('berkeleyMap', ['$compile', function ($compile) {
   console.log("getting to berkeley map");
     return {
-        restrict: 'EA',
-        templateUrl: 'assets/maps/02_berkeleyMap.svg'
+        restrict: 'A',
+        templateUrl: 'assets/maps/berkeleyLandmarked.svg'
     };
 }]);
 angular.module('app').directive('sunnysideMap', ['$compile', function ($compile) {
