@@ -3,14 +3,14 @@ height: 1200px;
 background-color: pink;
 }
 
-#quotePage {
+/*#quotePage {
   height: 1200px;
  background-color: #93E8DB;
-}
+}*/
 
 #aboutPage {
-  height: 1200px;
-  background-color: pink;
+  height: 3500px;
+  /*background-color: pink;*/
 
 }
 
@@ -106,18 +106,18 @@ background-color: pink;
   font-size: 200px;
 }
 
-.quoteStyle {
+/*.quoteStyle {*/
   /*like this one*/
-  font-family: Cabin Sketch;
-  /*font-family: Dosis;*/
+  /*font-family: Cabin Sketch;*/
+  /*font-family: Dosis;
   font-size: 50px;
-}
+}*/
 
 .aboutStyle {
 /*like this one*/
 /*font-family: Cabin Sketch;*/
 font-family: Dosis;
-font-size: 20px;
+font-size: 40px;
 }
 
 .historyStyle{
