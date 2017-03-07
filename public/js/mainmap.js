@@ -18,35 +18,35 @@ angular.module('app').directive('sunnysideMap', ['$compile', function ($compile)
   console.log("getting to sunnyside map");
     return {
         restrict: 'EA',
-        templateUrl: 'assets/maps/03_sunnysideMap.svg'
+        templateUrl: 'assets/maps/sunnyside_final.svg'
     };
 }]);
 angular.module('app').directive('westHighlandsMap', ['$compile', function ($compile) {
   console.log("getting to main map");
     return {
         restrict: 'EA',
-        templateUrl: 'assets/maps/04_westHighlandsMap.svg'
+        templateUrl: 'assets/maps/west_highland_final.svg'
     };
 }]);
 angular.module('app').directive('lowerHighlandsMap', ['$compile', function ($compile) {
   console.log("getting to main map");
     return {
         restrict: 'EA',
-        templateUrl: 'assets/maps/05_lowerHighlandsMap.svg'
+        templateUrl: 'assets/maps/lower_highland_final.svg'
     };
 }]);
 angular.module('app').directive('sloansLakeMap', ['$compile', function ($compile) {
   console.log("getting to main map");
     return {
         restrict: 'EA',
-        templateUrl: 'assets/maps/06_sloansLakeMap.svg'
+        templateUrl: 'assets/maps/sloans_lake_final.svg'
     };
 }]);
 angular.module('app').directive('jeffersonParkMap', ['$compile', function ($compile) {
   console.log("getting to main map");
     return {
         restrict: 'EA',
-        templateUrl: 'assets/maps/07_jeffersonParkMap.svg'
+        templateUrl: 'assets/maps/jefferson_park_final.svg'
     };
 }]);
 
