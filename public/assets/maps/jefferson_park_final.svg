@@ -181,13 +181,21 @@
       </g>
     </g>
     <g id="landmarks">
-      <image id="anderson_house" width="256" height="256" transform="translate(48.28 377.83) scale(0.21 0.15)" xlink:href="/assets/maps/denvericons/021-home-1.png"/>
-      <image id="sassafrass_american_eatery" width="256" height="256" transform="translate(208.7 222.13) scale(0.22 0.21)" xlink:href="/assets/maps/denvericons/022-store.png"/>
-      <image id="briar_common_brewery" width="256" height="256" transform="translate(236.41 440.01) scale(0.2 0.17)" xlink:href="/assets/maps/denvericons/013-online-store.png"/>
-      <image id="fire_station_12" width="256" height="256" transform="translate(22.39 224.89) scale(0.19 0.19)" xlink:href="/assets/maps/denvericons/006-fire-station.png"/>
-      <image id="adams_mystery_playhouse" width="256" height="256" transform="translate(22.39 313.27) scale(0.16 0.14)" xlink:href="/assets/maps/denvericons/007-stage.png"/>
-      <image id="_7_11" data-name="7_11" width="256" height="256" transform="translate(26.8 182.93) scale(0.15 0.15)" xlink:href="/assets/maps/denvericons/001-location.png"/>
-      <image id="aquarium" width="256" height="256" transform="translate(464.59 400.08) scale(0.21 0.2)" xlink:href="/assets/maps/denvericons/005-bank.png"/>
+      <!-- andersonhouse -->
+      <image id="39" width="256" height="256" transform="translate(48.28 377.83) scale(0.21 0.15)" xlink:href="/assets/maps/denvericons/021-home-1.png" ng-click="$ctrl.getLandmark(39)"/>
+      <!-- sassafrass -->
+      <image id="36" width="256" height="256" transform="translate(208.7 222.13) scale(0.22 0.21)" xlink:href="/assets/maps/denvericons/022-store.png" ng-click="$ctrl.getLandmark(36)"/>
+      <!-- briar common -->
+      <image id="37" width="256" height="256" transform="translate(236.41 440.01) scale(0.2 0.17)" xlink:href="/assets/maps/denvericons/013-online-store.png" ng-click="$ctrl.getLandmark(37)"/>
+      <!-- fire station -->
+      <image id="35" width="256" height="256" transform="translate(22.39 224.89) scale(0.19 0.19)" xlink:href="/assets/maps/denvericons/006-fire-station.png" ng-click="$ctrl.getLandmark(35)"/>
+      <!-- adams mystery -->
+      <image id="40" width="256" height="256" transform="translate(22.39 313.27) scale(0.16 0.14)" xlink:href="/assets/maps/denvericons/007-stage.png" ng-click="$ctrl.getLandmark(40)"/>
+      <!-- 7/11 -->
+      <image id="38" data-name="7_11" width="256" height="256" transform="translate(26.8 182.93) scale(0.15 0.15)" xlink:href="/assets/maps/denvericons/001-location.png" ng-click="$ctrl.getLandmark(38)"/>
+      <!-- zang -->
+      <image id="21" width="256" height="256" transform="translate(464.59 400.08) scale(0.21 0.2)" xlink:href="/assets/maps/denvericons/005-bank.png" ng-click="$ctrl.getLandmark(21)"/>
+      <!-- my brothers bar 22 -->
     </g>
   </g>
 </svg>

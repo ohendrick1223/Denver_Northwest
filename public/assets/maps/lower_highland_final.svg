@@ -313,18 +313,30 @@
       </g>
     </g>
     <g id="landmarks">
-      <image id="potter_highland" transform="translate(161.76 166.42) scale(0.16 0.15)" xlink:href="/assets/maps/denvericons/024-home.png"/>
-      <image id="scottish_highland_historic_district" transform="translate(242.31 349.65) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/024-home.png"/>
-      <image id="north_highschool" width="256" height="256" transform="translate(95.01 352.95) scale(0.2 0.21)" xlink:href="/assets/maps/denvericons/023-school.png"/>
-      <image id="centura_senior_residences" width="256" height="256" transform="translate(62.07 309.45) scale(0.13 0.14)" xlink:href="/assets/maps/denvericons/020-condo.png"/>
-      <image id="patsys" width="256" height="256" transform="translate(624.28 110.68) scale(0.1 0.1)" xlink:href="/assets/maps/denvericons/013-online-store.png"/>
-      <image id="our_lady_of_mount_carmel_church" transform="translate(611.07 167.74) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png"/>
-      <image id="st_patricks_church" transform="translate(523.17 190.24) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png"/>
-      <image id="our_lady_of_guadalupe" transform="translate(705.05 163.98) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png"/>
-      <image id="carbon_coffee" transform="translate(592.25 416.37) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/011-cafe.png"/>
-      <image id="panaderia_rosales_bakery" transform="translate(163.01 266.52) scale(0.15 0.18)" xlink:href="/assets/maps/denvericons/011-cafe.png"/>
-      <image id="linger" width="256" height="256" transform="matrix(-0.15, 0, 0, 0.13, 461.36, 388.95)" xlink:href="/assets/maps/denvericons/012-store-1.png"/>
-      <image id="lumber_baron_inn" width="256" height="256" transform="translate(192.98 70.89) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/003-motel.png"/>
+      <!-- potter -->
+      <image id="15" transform="translate(161.76 166.42) scale(0.16 0.15)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(15)"/>
+      <!-- scottishhighland -->
+      <image id="23" transform="translate(242.31 349.65) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(23)"/>
+      <!-- north -->
+      <image id="30" width="256" height="256" transform="translate(95.01 352.95) scale(0.2 0.21)" xlink:href="/assets/maps/denvericons/023-school.png" ng-click="$ctrl.getLandmark(30)"/>
+      <!-- oakeshome -->
+      <image id="24" width="256" height="256" transform="translate(62.07 309.45) scale(0.13 0.14)" xlink:href="/assets/maps/denvericons/020-condo.png" ng-click="$ctrl.getLandmark(24)"/>
+      <!-- patsys -->
+      <image id="29" width="256" height="256" transform="translate(624.28 110.68) scale(0.1 0.1)" xlink:href="/assets/maps/denvericons/013-online-store.png" ng-click="$ctrl.getLandmark(29)"/>
+      <!-- mount carmel -->
+      <image id="25" transform="translate(611.07 167.74) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(25)"/>
+      <!-- st patricks -->
+      <image id="32" transform="translate(523.17 190.24) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(32)"/>
+      <!-- guadalupa -->
+      <image id="26" transform="translate(705.05 163.98) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(26)"/>
+      <!-- carbon coffee -->
+      <image id="27" transform="translate(592.25 416.37) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/011-cafe.png" ng-click="$ctrl.getLandmark(27)"/>
+      <!-- panaderia rosales -->
+      <image id="14" transform="translate(163.01 266.52) scale(0.15 0.18)" xlink:href="/assets/maps/denvericons/011-cafe.png" ng-click="$ctrl.getLandmark(14)"/>
+      <!-- linger -->
+      <image id="28" width="256" height="256" transform="matrix(-0.15, 0, 0, 0.13, 461.36, 388.95)" xlink:href="/assets/maps/denvericons/012-store-1.png" ng-click="$ctrl.getLandmark(28)"/>
+      <!-- lumber baron -->
+      <image id="31" width="256" height="256" transform="translate(192.98 70.89) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/003-motel.png" ng-click="$ctrl.getLandmark(31)"/>
     </g>
   </g>
 </svg>
