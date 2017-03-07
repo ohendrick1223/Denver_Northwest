@@ -200,15 +200,15 @@
     </g>
     <g id="landmarks">
       <!-- highland garden village -->
-      <image id="16" width="256" height="256" transform="translate(252.44 1.89) scale(0.28 0.24)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(16)"/>
+      <image id="16" width="256" height="256" transform="translate(252.44 1.89) scale(0.28 0.24)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(16)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- highland 32 -->
-      <image id="18" width="256" height="256" transform="translate(586.99 213.21) scale(0.22 0.2)" xlink:href="/assets/maps/denvericons/020-condo.png" ng-click="$ctrl.getLandmark(18)"/>
+      <image id="18" width="256" height="256" transform="translate(586.99 213.21) scale(0.22 0.2)" xlink:href="/assets/maps/denvericons/020-condo.png" ng-click="$ctrl.getLandmark(18)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- elitch theatre -->
-      <image id="17" width="256" height="256" transform="translate(194.2 63.48) scale(0.15 0.12)" xlink:href="/assets/maps/denvericons/007-stage.png" ng-click="$ctrl.getLandmark(17)"/>
+      <image id="17" width="256" height="256" transform="translate(194.2 63.48) scale(0.15 0.12)" xlink:href="/assets/maps/denvericons/007-stage.png" ng-click="$ctrl.getLandmark(17)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- litt sisters -->
-      <image id="20" width="256" height="256" transform="translate(541.06 334.19) scale(0.24 0.2)" xlink:href="/assets/maps/denvericons/008-flag.png" ng-click="$ctrl.getLandmark(20)"/>
+      <image id="20" width="256" height="256" transform="translate(541.06 334.19) scale(0.24 0.2)" xlink:href="/assets/maps/denvericons/008-flag.png" ng-click="$ctrl.getLandmark(20)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- woodbury -->
-      <image id="19" width="256" height="256" transform="translate(905.97 239.55) scale(0.16 0.14)" xlink:href="/assets/maps/denvericons/005-bank.png" ng-click="$ctrl.getLandmark(19)"/>
+      <image id="19" width="256" height="256" transform="translate(905.97 239.55) scale(0.16 0.14)" xlink:href="/assets/maps/denvericons/005-bank.png" ng-click="$ctrl.getLandmark(19)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
     </g>
   </g>
 </svg>

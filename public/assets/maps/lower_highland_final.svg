@@ -314,29 +314,29 @@
     </g>
     <g id="landmarks">
       <!-- potter -->
-      <image id="15" transform="translate(161.76 166.42) scale(0.16 0.15)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(15)"/>
+      <image id="15" transform="translate(161.76 166.42) scale(0.16 0.15)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(15)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- scottishhighland -->
-      <image id="23" transform="translate(242.31 349.65) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(23)"/>
+      <image id="23" transform="translate(242.31 349.65) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/024-home.png" ng-click="$ctrl.getLandmark(23)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- north -->
-      <image id="30" width="256" height="256" transform="translate(95.01 352.95) scale(0.2 0.21)" xlink:href="/assets/maps/denvericons/023-school.png" ng-click="$ctrl.getLandmark(30)"/>
+      <image id="30" width="256" height="256" transform="translate(95.01 352.95) scale(0.2 0.21)" xlink:href="/assets/maps/denvericons/023-school.png" ng-click="$ctrl.getLandmark(30)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- oakeshome -->
-      <image id="24" width="256" height="256" transform="translate(62.07 309.45) scale(0.13 0.14)" xlink:href="/assets/maps/denvericons/020-condo.png" ng-click="$ctrl.getLandmark(24)"/>
+      <image id="24" width="256" height="256" transform="translate(62.07 309.45) scale(0.13 0.14)" xlink:href="/assets/maps/denvericons/020-condo.png" ng-click="$ctrl.getLandmark(24)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- patsys -->
-      <image id="29" width="256" height="256" transform="translate(624.28 110.68) scale(0.1 0.1)" xlink:href="/assets/maps/denvericons/013-online-store.png" ng-click="$ctrl.getLandmark(29)"/>
+      <image id="29" width="256" height="256" transform="translate(624.28 110.68) scale(0.1 0.1)" xlink:href="/assets/maps/denvericons/013-online-store.png" ng-click="$ctrl.getLandmark(29)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- mount carmel -->
-      <image id="25" transform="translate(611.07 167.74) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(25)"/>
+      <image id="25" transform="translate(611.07 167.74) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(25)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- st patricks -->
-      <image id="32" transform="translate(523.17 190.24) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(32)"/>
+      <image id="32" transform="translate(523.17 190.24) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(32)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- guadalupa -->
-      <image id="26" transform="translate(705.05 163.98) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(26)"/>
+      <image id="26" transform="translate(705.05 163.98) scale(0.26 0.22)" xlink:href="/assets/maps/denvericons/014-monastery.png" ng-click="$ctrl.getLandmark(26)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- carbon coffee -->
-      <image id="27" transform="translate(592.25 416.37) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/011-cafe.png" ng-click="$ctrl.getLandmark(27)"/>
+      <image id="27" transform="translate(592.25 416.37) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/011-cafe.png" ng-click="$ctrl.getLandmark(27)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- panaderia rosales -->
-      <image id="14" transform="translate(163.01 266.52) scale(0.15 0.18)" xlink:href="/assets/maps/denvericons/011-cafe.png" ng-click="$ctrl.getLandmark(14)"/>
+      <image id="14" transform="translate(163.01 266.52) scale(0.15 0.18)" xlink:href="/assets/maps/denvericons/011-cafe.png" ng-click="$ctrl.getLandmark(14)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- linger -->
-      <image id="28" width="256" height="256" transform="matrix(-0.15, 0, 0, 0.13, 461.36, 388.95)" xlink:href="/assets/maps/denvericons/012-store-1.png" ng-click="$ctrl.getLandmark(28)"/>
+      <image id="28" width="256" height="256" transform="matrix(-0.15, 0, 0, 0.13, 461.36, 388.95)" xlink:href="/assets/maps/denvericons/012-store-1.png" ng-click="$ctrl.getLandmark(28)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
       <!-- lumber baron -->
-      <image id="31" width="256" height="256" transform="translate(192.98 70.89) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/003-motel.png" ng-click="$ctrl.getLandmark(31)"/>
+      <image id="31" width="256" height="256" transform="translate(192.98 70.89) scale(0.15 0.14)" xlink:href="/assets/maps/denvericons/003-motel.png" ng-click="$ctrl.getLandmark(31)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
     </g>
   </g>
 </svg>

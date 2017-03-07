@@ -199,9 +199,9 @@
       </g>
     </g>
     <g id="landmarks">
-      <image id="34" width="256" height="256" transform="translate(198.78 628.27) scale(0.33 0.32)" xlink:href="/assets/maps/denvericons/020-condo.png" ng-click="$ctrl.getLandmark(34)"/>
+      <image id="34" width="256" height="256" transform="translate(198.78 628.27) scale(0.33 0.32)" xlink:href="/assets/maps/denvericons/020-condo.png" ng-click="$ctrl.getLandmark(34)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
 
-      <image id="33" width="256" height="256" transform="translate(181.38 416.41) scale(0.25 0.26)" xlink:href="/assets/maps/denvericons/018-rowing.png" ng-click="$ctrl.getLandmark(33)"/>
+      <image id="33" width="256" height="256" transform="translate(181.38 416.41) scale(0.25 0.26)" xlink:href="/assets/maps/denvericons/018-rowing.png" ng-click="$ctrl.getLandmark(33)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
     </g>
   </g>
 </svg>

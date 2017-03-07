@@ -107,6 +107,10 @@
 
 })(); //END LANDING PAGE ANIMATION=======================
 
+vm.getNeighborhood = function(id) {
+  console.log("getting to neighborhood function");
+  
+}
     }; //end of oninit function
     vm.sloans_lake = function() {
       console.log("getting to sloanlake function")
@@ -114,12 +118,13 @@
     };
 
     vm.getLandmark = function(id) {
-      console.log("getting to skinner middle school");
+      console.log("getting to landmark function");
       $http.get(`/landmarks/${id}`).then(function(response) {
         console.log(response.data);
         vm.landmark = response.data;
       });
     };
+
   } //end of controller function
 
 
