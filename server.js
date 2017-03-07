@@ -9,13 +9,14 @@ const path = require('path');
 const knex = require('knex');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
-app.use(express.static(path.join(__dirname, 'public')));
 
-// const neighborhoods = require('./routes/neighborhoods');
-// app.use('/neighborhoods', neighborhoods);
-//
-// const landmarks = require('./routes/landmarks');
-// app.use('/landmarks', landmarks);
+const neighborhoods = require('./routes/neighborhoods');
+app.use('/neighborhoods', neighborhoods);
+
+const landmarks = require('./routes/landmarks');
+app.use('/landmarks', landmarks);
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('*', function(req, res) {
   res.sendFile('index.html', {

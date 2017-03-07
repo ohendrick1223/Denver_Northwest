@@ -112,6 +112,14 @@
       console.log("getting to sloanlake function")
 
     };
+
+    vm.getLandmark = function(id) {
+      console.log("getting to skinner middle school");
+      $http.get(`/landmarks/${id}`).then(function(response) {
+        console.log(response.data);
+        vm.landmark = response.data;
+      });
+    };
   } //end of controller function
 
 
