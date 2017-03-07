@@ -107,15 +107,7 @@
 
 })(); //END LANDING PAGE ANIMATION=======================
 
-vm.getNeighborhood = function(id) {
-  console.log("getting to neighborhood function");
-  
-}
     }; //end of oninit function
-    vm.sloans_lake = function() {
-      console.log("getting to sloanlake function")
-
-    };
 
     vm.getLandmark = function(id) {
       console.log("getting to landmark function");
