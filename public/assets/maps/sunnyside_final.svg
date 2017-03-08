@@ -476,13 +476,13 @@
       </g>
     </g>
     <g id="landmarks">
-      <image id="11" width="256" height="256" transform="translate(387.94 574.71) scale(0.2 0.16)" xlink:href="/assets/maps/denvericons/023-school.png" ng-click="$ctrl.getLandmark(11)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House"><image id="11" width="256" height="256" transform="translate(387.94 574.71) scale(0.2 0.16)" xlink:href="/assets/maps/denvericons/023-school.png" ng-click="$ctrl.getLandmark(11)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
-      <image id="12" width="256" height="256" transform="translate(576.47 773.54) scale(0.16 0.13)" xlink:href="/assets/maps/denvericons/009-store-2.png" ng-click="$ctrl.getLandmark(12)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House"><image id="12" width="256" height="256" transform="translate(576.47 773.54) scale(0.16 0.13)" xlink:href="/assets/maps/denvericons/009-store-2.png" ng-click="$ctrl.getLandmark(12)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
-      <image id="13" width="256" height="256" transform="matrix(-0.16, 0, 0, 0.15, 397.82, 764.53)" xlink:href="assets/maps/denvericons/012-store-1.png" ng-click="$ctrl.getLandmark(13)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House"><image id="13" width="256" height="256" transform="matrix(-0.16, 0, 0, 0.15, 397.82, 764.53)" xlink:href="assets/maps/denvericons/012-store-1.png" ng-click="$ctrl.getLandmark(13)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
-      <image id="10" width="256" height="256" transform="translate(805.2 20.98) scale(0.23 0.22)" xlink:href="assets/maps/denvericons/industry.png" ng-click="$ctrl.getLandmark(10)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House"><image id="10" width="256" height="256" transform="translate(805.2 20.98) scale(0.23 0.22)" xlink:href="assets/maps/denvericons/industry.png" ng-click="$ctrl.getLandmark(10)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
     </g>
   </g>
 </svg>

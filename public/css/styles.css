@@ -1,3 +1,4 @@
+/*background gradient*/
 body {
     background-color: #eae4d6;
     /* IE9, iOS 3.2+ */
@@ -33,91 +34,56 @@ img {
 
 .landingPage {
 height: 1200px;
-/*background-color: pink;*/
+background-color: blue;
 }
 
 #aboutPage {
   height: 3500px;
-  /*background-color: pink;*/
-
 }
 
 #historyPage {
   height: 5700px;
-  /*background-color: #93E8DB;*/
-
-
 }
 
 #timelinePage {
    height: 1000px;
-   /*background-color: pink;*/
   }
 
 #mapPage {
   height: 1000px;
-  /*background-color: pink;*/
-
-}
-
-.scroll-box {
-  overflow-y: scroll;
-  height: 400px;
-  /*padding: 1rem*/
-}
-
-.scroll-box-west-highland{
-  overflow-y: scroll;
-  height: 150px;
 }
 
 #berkeleyMapPage {
   height: 1000px;
-  /*background-color: #93E8DB;*/
-
 }
 
 #sunnysideMapPage {
   height: 1000px;
-  /*background-color: pink;*/
-
 }
 
 #westHighlandMapPage {
   height: 700px;
-
 }
 
 #lowerHighlandMapPage {
   height: 1000px;
-
 }
 
 #sloansLakeMapPage {
   height: 1000px;
-  /*background-color: #93E8DB;*/
-
-
 }
 
 #jeffersonParkMapPage {
   height: 1000px;
-  /*background-color: pink;*/
-
-
 }
 
 #storyBooksPage {
   height: 1200px;
-  /*background-color: #93E8DB;*/
-
-
 }
 
 #resourcesPage {
   height: 1200px;
   /*background-color: pink;*/
-
 }
 
 #contactPage {
@@ -128,9 +94,9 @@ height: 1200px;
 .navStyle{
   font-family: Dosis;
   font-size: 25px;
-
 }
 
+/*navbar gradient*/
 .gradient {
     background-color: #f5f2ee;
     /* IE9, iOS 3.2+ */
@@ -142,7 +108,6 @@ height: 1200px;
     background-image: repeating-linear-gradient(273deg,rgb(255, 229, 230) 0%,rgb(238, 241, 246) 22.3%,rgb(238, 244, 246) 41.2%,rgb(240, 245, 239) 60.8%,rgb(255, 253, 229) 80.2%,rgb(255, 229, 229) 100%);
     background-image: -ms-repeating-linear-gradient(177deg,rgb(255, 229, 230) 0%,rgb(238, 241, 246) 22.3%,rgb(238, 244, 246) 41.2%,rgb(240, 245, 239) 60.8%,rgb(255, 253, 229) 80.2%,rgb(255, 229, 229) 100%);
 }
-
 /* IE8- CSS hack */
 @media \0screen\,screen\9 {
     .gradient {
@@ -150,25 +115,23 @@ height: 1200px;
     }
 }
 
-
 /*override bootstrap*/
 .navbar{
   border: none;
-}
-
-/*spacing between nav elements*/
-li>a{
-  margin-left: 40px;
-  margin-right: 30px;
 }
 
 /*override bootstrap navbar hover state*/
 .navbar-default .navbar-nav>li>a:hover{
   color: #b5d1d0;
 }
+/*spacing between nav elements*/
+li>a{
+  margin-left: 40px;
+  margin-right: 30px;
+}
 
 /*prevents navigation cutting off headers*/
-p{
+span{
   color: transparent;
 }
 
@@ -179,53 +142,50 @@ p{
 
 h1{
   font-family: Londrina Sketch;
-  font-size: 100px;
+  font-size: 50px;
 }
 
-/*.quoteStyle {*/
-  /*like this one*/
-  /*font-family: Cabin Sketch;*/
-  /*font-family: Dosis;
-  font-size: 50px;
-}*/
-
 .aboutStyle {
-/*like this one*/
-/*font-family: Cabin Sketch;*/
-font-family: Dosis;
-font-size: 40px;
-/*text-shadow: 1px 1px 1px;*/
-
+  font-family: Dosis;
+  font-size: 40px;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
 }
 
 .historyStyle{
   font-family: Dosis;
   font-size: 30px;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
 }
 
 .timelineStyle{
   font-family: Dosis;
   font-size: 20px;
-
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
 }
 
 .mapStyle{
   font-family: Dosis;
   font-size: 15px;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
 }
 
+/*//neighborhood descriptions*/
+.scroll-box {
+  overflow-y: scroll;
+  height: 400px;
+  font-family: Dosis;
+  font-size: 20px;
+}
 
+.scroll-box-west-highland{
+  overflow-y: scroll;
+  height: 150px;
+  font-family: Dosis;
+  font-size: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-Cabin+Sketch||Dosis|Dr+Sugiyama|Londrina+Sketch"*/
+.modalStyle{
+  font-family: Dosis;
+  font-size: 15px;
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
+}

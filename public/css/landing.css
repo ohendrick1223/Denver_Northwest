@@ -2,7 +2,11 @@
 /*Need to figure out how to link background image, something is over-riding, need to apply backimage to either content class, large header, demo canvas or something else entirely!*/
 
 #demo-canvas {
-	background-image: url('./assets/hero.png');
+	background-image: url('/assets/Denver_Skyline_Painting.jpg');
+	background-size: cover;
+	/*opacity: .5;*/
+	/*background-color: rgb(215, 255, 225);*/
+
 
 }
 
@@ -49,5 +53,5 @@
 }
 /*fade out*/
 .mapSection {
-  
+
 }

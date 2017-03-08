@@ -15,10 +15,14 @@
         <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chathura|Diplomata+SC|Dosis|Dr+Sugiyama|Fredericka+the+Great|Homemade+Apple|IM+Fell+DW+Pica+SC|IM+Fell+English+SC|Londrina+Sketch|Mallanna|Poiret+One" rel="stylesheet">
         <!-- <link rel="stylesheet" href="node_modules/aos/dist/aos.css" /> -->
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <!-- smooth transitions -->
+        <link rel="stylesheet" href="/scrolling-nav/css/scrolling-nav.css">
+
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
     <!-- insert SPA component -->
     <denver-northwest></denver-northwest>
 
@@ -33,15 +37,9 @@
     <script src="/js/denver-northwest.component.js"></script>
     <script src="/js/mainmap.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script src="/js/scroll-fading.js">
-
-</script>    <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
-    <!-- <script src="node_modules/aos/dist/aos.js"></script> -->
-    <!-- <script>
-  AOS.init();
-</script> -->
-
+    <script src="/js/scroll-fading.js"></script>
+    <script src="/scrolling-nav/js/scrolling-nav.js"></script>
+    <script src="/scrolling-nav/js/jquery.easing.min.js"></script>
 
   </body>
-
 </html>

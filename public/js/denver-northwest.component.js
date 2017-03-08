@@ -106,6 +106,11 @@
     }
 
 })(); //END LANDING PAGE ANIMATION=======================
+//trigger tooltip functionality
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
 
     }; //end of oninit function
 

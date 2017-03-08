@@ -365,31 +365,40 @@
     </g>
     <g id="landmarks">
       <!-- skinner -->
-      <image id="4" width="256" height="256" transform="translate(735.71 670.32) scale(0.22 0.19)" xlink:href="/assets/maps/denvericons/023-school.png" ng-click="$ctrl.getLandmark(4)" data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="4" width="256" height="256" transform="translate(735.71 670.32) scale(0.22 0.19)" xlink:href="/assets/maps/denvericons/023-school.png" ng-click="$ctrl.getLandmark(4)" data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- berkeley park -->
-      <image id="6" transform="translate(286.6 363.39) scale(0.22 0.2)" xlink:href="/assets/maps/denvericons/019-forest.png" ng-click="$ctrl.getLandmark(6)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="6" transform="translate(286.6 363.39) scale(0.22 0.2)" xlink:href="/assets/maps/denvericons/019-forest.png" ng-click="$ctrl.getLandmark(6)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- willis case -->
-      <image id="1" transform="translate(79.44 55.75) scale(0.26 0.21)" xlink:href="/assets/maps/denvericons/019-forest.png" ng-click="$ctrl.getLandmark(1)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+      <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="1" transform="translate(79.44 55.75) scale(0.26 0.21)" xlink:href="/assets/maps/denvericons/019-forest.png" ng-click="$ctrl.getLandmark(1)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- tennyson shops -->
-      <image id="9" width="256" height="256" transform="translate(335.78 679.99) scale(0.18 0.15)" xlink:href="/assets/maps/denvericons/022-store.png" ng-click="$ctrl.getLandmark(9)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="9" width="256" height="256" transform="translate(335.78 679.99) scale(0.18 0.15)" xlink:href="/assets/maps/denvericons/022-store.png" ng-click="$ctrl.getLandmark(9)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- billysinn  -->
-      <image id="5" width="256" height="256" transform="translate(667.67 515.53) scale(0.17 0.16)" xlink:href="/assets/maps/denvericons/013-online-store.png" ng-click="$ctrl.getLandmark(5)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="5" width="256" height="256" transform="translate(667.67 515.53) scale(0.17 0.16)" xlink:href="/assets/maps/denvericons/013-online-store.png" ng-click="$ctrl.getLandmark(5)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- oriental -->
-      <image id="7" width="256" height="256" transform="translate(358.55 540.89) scale(0.15 0.13)" xlink:href="/assets/maps/denvericons/007-stage.png" ng-click="$ctrl.getLandmark(7)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="7" width="256" height="256" transform="translate(358.55 540.89) scale(0.15 0.13)" xlink:href="/assets/maps/denvericons/007-stage.png" ng-click="$ctrl.getLandmark(7)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- lakeside -->
-      <image id="3" width="256" height="256" transform="translate(4.4 438.85) scale(0.13 0.13)" xlink:href="/assets/maps/denvericons/004-ferris-wheel.png" ng-click="$ctrl.getLandmark(3)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="3" width="256" height="256" transform="translate(4.4 438.85) scale(0.13 0.13)" xlink:href="/assets/maps/denvericons/004-ferris-wheel.png" ng-click="$ctrl.getLandmark(3)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- mirador -->
-      <image id="2" transform="translate(175.85 130.64) scale(0.14 0.12)" xlink:href="/assets/maps/denvericons/005-bank.png" ng-click="$ctrl.getLandmark(2)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="2" transform="translate(175.85 130.64) scale(0.14 0.12)" xlink:href="/assets/maps/denvericons/005-bank.png" ng-click="$ctrl.getLandmark(2)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
 
       <!-- smiley -->
-      <image id="8" transform="translate(245.76 384.19) scale(0.14 0.12)" xlink:href="/assets/maps/denvericons/005-bank.png" ng-click="$ctrl.getLandmark(8)"  data-toggle="modal" data-target=".bs-example-modal-lg"/>
+             <a href="" data-toggle="tooltip" data-placement="top" title="Anderson House">
+      <image id="8" transform="translate(245.76 384.19) scale(0.14 0.12)" xlink:href="/assets/maps/denvericons/005-bank.png" ng-click="$ctrl.getLandmark(8)"  data-toggle="modal" data-target=".bs-example-modal-lg"/></a>
     </g>
   </g>
 </svg>
