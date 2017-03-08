@@ -15,8 +15,9 @@ background-color: pink;
 }
 
 #historyPage {
-  height: 2000px;
+  height: 6000px;
   background-color: #93E8DB;
+
 
 }
 
@@ -122,7 +123,7 @@ font-size: 40px;
 
 .historyStyle{
   font-family: Dosis;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .timelineStyle{
