@@ -5,7 +5,7 @@
   <defs>
     <style>
       .mainMap-cls-1 {
-        fill: #ff7378;
+        fill: rgb(255, 203, 205);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -17,7 +17,7 @@
       }
 
       .mainMap-cls-2 {
-        fill: #619cb0;
+        fill: rgb(197, 234, 246);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -29,7 +29,7 @@
       }
 
       .mainMap-cls-3 {
-        fill: #769e6c;
+        fill: rgb(210, 252, 203);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -40,7 +40,7 @@
       }
 
       .mainMap-cls-4 {
-        fill: #ff9696;
+        fill: rgb(255, 213, 213);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -51,7 +51,7 @@
       }
 
       .mainMap-cls-5 {
-        fill: #fff891;
+        fill: rgb(255, 252, 213);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -62,7 +62,7 @@
       }
 
       .mainMap-cls-6 {
-        fill: #8699bd;
+        fill: rgb(214, 216, 243);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -72,7 +72,7 @@
         opacity: 0.5;
         }
 
-        
+
     </style>
   </defs>
   <title>Asset 1</title>
