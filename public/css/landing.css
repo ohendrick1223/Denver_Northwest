@@ -6,15 +6,12 @@
 	background-size: cover;
 	/*opacity: .5;*/
 	/*background-color: rgb(215, 255, 225);*/
-
-
 }
 
 .large-header {
 	position: relative;
 	width: 100%;
 	background: #333 url("assets/hero.png");
-
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
@@ -50,8 +47,4 @@
 	.main-title {
 		font-size: 4em;
 	}
-}
-/*fade out*/
-.mapSection {
-
 }

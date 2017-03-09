@@ -1,5 +1,4 @@
 'use strict';
-
 require('dotenv').config();
 
 const express = require('express');
@@ -9,12 +8,18 @@ const path = require('path');
 const knex = require('knex');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
+const helper = require('sendgrid').mail;
+const sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
+
 
 const neighborhoods = require('./routes/neighborhoods');
 app.use('/neighborhoods', neighborhoods);
 
 const landmarks = require('./routes/landmarks');
 app.use('/landmarks', landmarks);
+
+const sendgrid = require('./routes/sendgrid');
+app.use('/sendgrid', sendgrid);
 
 app.use(express.static(path.join(__dirname, 'public')));
 

@@ -5,7 +5,8 @@
   <defs>
     <style>
       .mainMap-cls-1 {
-        fill: rgb(255, 203, 205);
+        <!-- fill: rgb(255, 203, 205); -->
+        fill: rgb(255, 176, 179);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -17,7 +18,8 @@
       }
 
       .mainMap-cls-2 {
-        fill: rgb(197, 234, 246);
+        <!-- fill: rgb(197, 234, 246); -->
+        fill: rgb(104, 161, 180);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -29,7 +31,8 @@
       }
 
       .mainMap-cls-3 {
-        fill: rgb(210, 252, 203);
+        <!-- fill: rgb(210, 252, 203); -->
+        fill: rgb(136, 239, 172);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -40,6 +43,7 @@
       }
 
       .mainMap-cls-4 {
+        <!-- fill: rgb(255, 213, 213); -->
         fill: rgb(255, 213, 213);
         opacity: 1;
         transition: opacity .25s ease-in-out;
@@ -51,7 +55,8 @@
       }
 
       .mainMap-cls-5 {
-        fill: rgb(255, 252, 213);
+        <!-- fill: rgb(255, 252, 213); -->
+        fill: rgb(255, 248, 162);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;
@@ -62,7 +67,9 @@
       }
 
       .mainMap-cls-6 {
-        fill: rgb(214, 216, 243);
+        <!-- fill: rgb(214, 216, 243); -->
+        <!-- fill: rgb(131, 137, 230); -->
+        fill: rgb(115, 137, 179);
         opacity: 1;
         transition: opacity .25s ease-in-out;
         -moz-transition: opacity .25s ease-in-out;

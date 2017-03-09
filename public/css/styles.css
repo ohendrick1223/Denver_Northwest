@@ -34,7 +34,6 @@ img {
 
 .landingPage {
 height: 1200px;
-background-color: blue;
 }
 
 #aboutPage {
@@ -140,36 +139,51 @@ span{
   font-size: 200px;
 }
 
+.firstImage{
+  -webkit-filter: hue-rotate(20deg);
+  filter: hue-rotate(20deg);
+}
+
+.miningImage, .larimerImage, .aurariaImage{
+  -webkit-filter: grayscale(1);
+ filter: grayscale(1);
+}
+
 h1{
   font-family: Londrina Sketch;
   font-size: 50px;
+  color: #676767;
 }
 
 .aboutStyle {
   font-family: Dosis;
   font-size: 40px;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
+  color: #676767;
 }
 
 .historyStyle{
   font-family: Dosis;
   font-size: 30px;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
+  color: #676767;
 }
 
 .timelineStyle{
   font-family: Dosis;
   font-size: 20px;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
+  color: #676767;
 }
 
 .mapStyle{
   font-family: Dosis;
   font-size: 15px;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
+  color: #676767;
 }
 
-/*//neighborhood descriptions*/
+/*neighborhood description boxes*/
 .scroll-box {
   overflow-y: scroll;
   height: 400px;
@@ -187,5 +201,14 @@ h1{
 .modalStyle{
   font-family: Dosis;
   font-size: 15px;
+  color: #676767;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.29);
+}
+
+.resourceStyle{
+font-family: Dosis;
+}
+
+.contactStyle{
+  font-family: Dosis;
 }
