@@ -124,7 +124,7 @@ $(function () {
 
     vm.sendEmail = function() {
       console.log("getting to email function");
-      $http.post('/send').then(function(response) {
+      $http.post('/sendgrid/send').then(function(response) {
         console.log("response from api:", response.data);
       });
     };

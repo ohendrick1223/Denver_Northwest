@@ -8,8 +8,7 @@ const path = require('path');
 const knex = require('knex');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
-const helper = require('sendgrid').mail;
-const sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
+
 
 
 const neighborhoods = require('./routes/neighborhoods');
