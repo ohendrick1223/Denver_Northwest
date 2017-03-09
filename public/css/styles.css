@@ -17,18 +17,13 @@ body {
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffd5d5",endColorstr="#ffffcbcd",GradientType=1);
     }
 }
-/*
-img {
-    -webkit-filter: hue-rotate(20deg);
-    filter: hue-rotate(20deg);
-}*/
-
 
 img {
   -webkit-filter: contrast(1);
   filter: contrast(1);
   -webkit-filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
   filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.9));
+  border-radius: 3px;
 }
 
 

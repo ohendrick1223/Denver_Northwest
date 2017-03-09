@@ -163,7 +163,7 @@
     <img src="/assets/denverhighland.png" style="width:404px;height:328px;" alt="Mountain View" class="center-block" data-aos="fade-zoom-in" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="800">
    </div>
    <div class="col-md-6">
-    <img src="/assets/williamlarimer2.jpg" style="width:320px;height:340px;" alt="Mountain View" class="center-block larimerImage" data-aos="fade-zoom-in" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="800">
+    <img src="/assets/williamlarimer.jpg" style="width:320px;height:340px;" alt="Mountain View" class="center-block larimerImage" data-aos="fade-zoom-in" data-aos-offset="400" data-aos-easing="ease-in-sine" data-aos-duration="800">
    </div>
   </div><br>
 
@@ -473,9 +473,8 @@
  <!-- HTML to write -->
 
  <!-- apply this to landmarks in svg file -->
- <a href="#" data-toggle="tooltip" title="Some tooltip text!">example landmark</a>
-
- <!-- this can stay here -->
+ <!-- <a href="#" data-toggle="tooltip" title="Some tooltip text!">example landmark</a> -->
+  <!-- this can stay here -->
  <!-- Generated markup by the plugin -->
  <!-- <div class="tooltip top" role="tooltip">
    <div class="tooltip-arrow"></div>
@@ -504,7 +503,17 @@
 <div class="col-md-10 gradient contactStyle"><br>
   <form id="contact_form" method="POST" class="contactStyle text-center">
     <p class="text-center">Contact the developer:</p>
-    <p>Add icons to github/linkedin</p><br>
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-1">
+        <p><a href="https://www.linkedin.com/in/olivia-hendrick1223/"><img src="/assets/maps/denvericons/001-linkedin-draw-logo.png" style="width:50px;height:50px;" alt="Mountain View" class="center-block"></a></p>
+      </div>
+      <div class="col-md-1">
+        <p><a href="https://github.com/ohendrick1223"><img src="/assets/maps/denvericons/002-github-draw-logo.png" style="width:50px;height:50px;" alt="Mountain View" class="center-block"></a></p>
+      </div>
+      <div class="col-md-5"></div>
+
+    </div>
   	<div class="row">
   		<label for="name">Your name:</label><br>
   		<input id="name" class="input" name="name" type="text" value="" size="60"/><br />
@@ -513,7 +522,7 @@
   		<label for="message">Your message:</label><br />
   		<textarea id="message" class="input" name="message" rows="7" cols="60"></textarea><br />
   	</div>
-  	<input id="submit_button" type="submit" value="Send email" ng-click="$ctrl.sendEmail()" />
+  <input id="submit_button" type="submit" value="Send email" ng-click="$ctrl.sendEmail(emailBody)"  />
   </form><br>
 </div>
 <div class="col-md-1"></div>

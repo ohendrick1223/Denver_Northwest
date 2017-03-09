@@ -122,12 +122,18 @@ $(function () {
       });
     };
 
-    vm.sendEmail = function() {
+    vm.sendEmail = function(emailBody) {
       console.log("getting to email function");
-      $http.post('/sendgrid/send').then(function(response) {
+      $http.post('/sendgrid/send', emailBody)
+      .then(function(response) {
         console.log("response from api:", response.data);
+        vm.email = response.data;
       });
     };
+
+//     $("#alert-target").click(function () {
+//     toastr["info"]("I was launched via jQuery!")
+// });
 
   } //end of controller function
 
