@@ -2,6 +2,6 @@
 (function() {
   console.log("getting to app.module.js");
 
-  angular.module('app', ['ngAnimate']);
+  angular.module('app', []);
 
 }());
